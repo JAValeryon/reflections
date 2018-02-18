@@ -2,3 +2,11 @@ What happens when you initialize a repository? Why do you need to do it?
 
 Git metadata is created. 
 Needed to start to track files for changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Allow me to separate files which I want to track and apply a version control and other files, which may be static and never changes or those which I am
+ working with right now and are not ready to be commited.
+
+
+comments style guide: http://udacity.github.io/git-styleguide/
