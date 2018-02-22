@@ -1,12 +1,38 @@
-What happens when you initialize a repository? Why do you need to do it?
+**What happens when you initialize a repository? Why do you need to do it?
 
 Git metadata is created. 
 Needed to start to track files for changes.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+**How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Allow me to separate files which I want to track and apply a version control and other files, which may be static and never changes or those which I am
  working with right now and are not ready to be commited.
 
 
 comments style guide: http://udacity.github.io/git-styleguide/
+
+**How can you use the staging area to make sure you have one commit per logical change?
+
+I can add only the file/s related to 1 logical change to the staging area and keep the others in working directory
+and then commit the changes from the staged are to the repository.
+
+**What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Many situations, for example:
+
+* Keep one stable and tested version in a branch.
+* The master branch would be the "alpha" for new changes
+* Split in different versions depending of several factors : language, compatibility, etc
+* test new functions before merging the changes into the master branch etc etc
+
+**How do the diagrams help you visualize the branch structure?
+
+I can see the tree of branches. The parents of each commit so I can do a tracking. Useful if I want to merge.
+
+**What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+We join together the changes made in the two branches since the split commit. 
+HEad now "have two parents"
+
+**What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: point changes and allow you choose which change to keep. It saves time.
+Cons: None?
