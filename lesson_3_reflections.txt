@@ -14,4 +14,19 @@ Describe the differences between forks, clones, and branches. When would you use
 - branch: split a commit
 
 What is the benefit of having a copy of the last known state of the remote stored locally
-Work offline! 
+Work offline!
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Well.. using subversion? xDD or using a shared folder/dropbox/ etc and/or being in the same office
+
+Easier: commmunication, resolve conflicts?
+Harder: track changes, undo work without breaking main project?!
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Same reasons/benefits as why to create a branch at first place with the idead of a pull request and allo others to review my work
+before a merge to master.
+
+Well, make changes directly to master seems more easier/fast but if more people are collaborating in the same repository it
+may be more convenient to allow them to review the changes and approve it.
+
+ 
